@@ -1,4 +1,9 @@
 .env
-.task/__pycache__/
-.task/app/__pycache__/
-.task/models/__pycache__/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.pytest_cache/
+.venv/
+venv/

@@ -2,9 +2,13 @@ import json
 import os
 
 import requests
+from dotenv import load_dotenv
 
-from task.models.message import Message
-from task.models.role import Role
+from models.message import Message
+from models.role import Role
+
+# Load environment variables from .env file
+load_dotenv()
 
 
 class DialClient:

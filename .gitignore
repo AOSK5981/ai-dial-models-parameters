@@ -1,0 +1,4 @@
+.env
+.task/__pycache__/
+.task/app/__pycache__/
+.task/models/__pycache__/

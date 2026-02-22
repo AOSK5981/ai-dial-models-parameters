@@ -1,4 +1,4 @@
-from task.app.main import run
+from app.main import run
 
 # TODO:
 #  Try `frequency_penalty` parameter.

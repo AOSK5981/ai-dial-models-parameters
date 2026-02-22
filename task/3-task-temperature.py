@@ -1,4 +1,4 @@
-from task.app.main import run
+from app.main import run
 
 # TODO:
 #  Try the `temperature` parameter that controls the randomness of the output. It's a parameter for balancing creativity
@@ -8,6 +8,7 @@ from task.app.main import run
 run(
     deployment_name='gpt-4o',
     print_only_content=True,
+    temperature=2.1
     # TODO:
     #  Use `temperature` parameter with value in range from 0.0 to 1.0!
     #  (Optional) Use `temperature` parameter with value 2.1 and check what happens

@@ -1,4 +1,6 @@
-from task.app.main import run
+from random import seed
+
+from app.main import run
 
 # TODO:
 #  Try the `seed` parameter:
@@ -13,6 +15,11 @@ run(
     # TODO:
     #  1. Use `seed` parameter with value 42 (or whatever you want)
     #  2. Use `n` parameter with value 5
+
+    
+    n=2,
+    seed=42,
+    print_only_content=False
 )
 
 # Check the content in choices. The expected result is that in almost all choices the result will be the same.

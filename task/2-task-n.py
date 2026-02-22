@@ -1,4 +1,4 @@
-from task.app.main import run
+from app.main import run
 
 # TODO:
 #  Try the `n` parameter with different models (`deployment_name`). With the parameter `n`, we can configure how many
@@ -14,7 +14,14 @@ run(
     # TODO:
     #  1. Provide `deployment_name` with model from the list above👆
     #  2. Use `n` parameter with value in range from 1 to 5!
-)
+      
+        deployment_name="gpt-4o",
+        print_request=False, # Switch to False if you do not want to see the request in console
+        print_only_content=True,
+         # Switch to True if you want to see only content from response
+         n = 3
+    )
+
 
 # Pay attention to the number of choices in the response!
 # If you have worked with ChatGPT, you have probably seen responses where ChatGPT offers you a choice between two
